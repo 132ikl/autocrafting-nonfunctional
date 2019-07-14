@@ -1,0 +1,1 @@
+execute if score @s gm4_slot_count matches 5 if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:redstone"},{Slot:3b,id:"minecraft:redstone"},{Slot:4b,id:"minecraft:glowstone"},{Slot:5b,id:"minecraft:redstone"},{Slot:7b,id:"minecraft:redstone"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:redstone_lamp",Count:1b,tag:{gm4_custom_crafters:{multiplier:1}}}]}

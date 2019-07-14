@@ -1,0 +1,13 @@
+execute if score @s gm4_slot_count matches 7 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:purple_wool"},{Slot:1b,id:"minecraft:purple_wool"},{Slot:2b,id:"minecraft:purple_wool"},{Slot:3b,id:"minecraft:purple_wool"},{Slot:4b,id:"minecraft:purple_wool"},{Slot:5b,id:"minecraft:purple_wool"},{Slot:7b,id:"minecraft:stick"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:purple_banner",Count:1b,tag:{gm4_custom_crafters:{multiplier:1}}}]}
+execute if score @s gm4_slot_count matches 7 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:yellow_wool"},{Slot:1b,id:"minecraft:yellow_wool"},{Slot:2b,id:"minecraft:yellow_wool"},{Slot:3b,id:"minecraft:yellow_wool"},{Slot:4b,id:"minecraft:yellow_wool"},{Slot:5b,id:"minecraft:yellow_wool"},{Slot:7b,id:"minecraft:stick"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:yellow_banner",Count:1b,tag:{gm4_custom_crafters:{multiplier:1}}}]}
+execute if score @s gm4_slot_count matches 7 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:orange_wool"},{Slot:1b,id:"minecraft:orange_wool"},{Slot:2b,id:"minecraft:orange_wool"},{Slot:3b,id:"minecraft:orange_wool"},{Slot:4b,id:"minecraft:orange_wool"},{Slot:5b,id:"minecraft:orange_wool"},{Slot:7b,id:"minecraft:stick"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:orange_banner",Count:1b,tag:{gm4_custom_crafters:{multiplier:1}}}]}
+scoreboard players set @s gm4_ac_craftsl 1
+execute store result score magenta_dye gm4_ac_count if data block ~ ~ ~ Items[{id:"minecraft:magenta_dye"}]
+execute unless score magenta_dye gm4_ac_count matches 1.. run scoreboard players set @s gm4_ac_craftsl 0
+execute store result score sand gm4_ac_count if data block ~ ~ ~ Items[{id:"minecraft:sand"}]
+execute unless score sand gm4_ac_count matches 4.. run scoreboard players set @s gm4_ac_craftsl 0
+execute store result score gravel gm4_ac_count if data block ~ ~ ~ Items[{id:"minecraft:gravel"}]
+execute unless score gravel gm4_ac_count matches 4.. run scoreboard players set @s gm4_ac_craftsl 0
+execute if score @s gm4_ac_craftsl matches 1 run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:magenta_concrete_powder",Count:1b,tag:{gm4_custom_crafters:{multiplier:8}}}]}
+
+execute if score @s gm4_slot_count matches 9 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:glass"},{Slot:1b,id:"minecraft:glass"},{Slot:2b,id:"minecraft:glass"},{Slot:3b,id:"minecraft:glass"},{Slot:4b,id:"minecraft:magenta_dye"},{Slot:5b,id:"minecraft:glass"},{Slot:6b,id:"minecraft:glass"},{Slot:7b,id:"minecraft:glass"},{Slot:8b,id:"minecraft:glass"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:magenta_stained_glass",Count:1b,tag:{gm4_custom_crafters:{multiplier:8}}}]}

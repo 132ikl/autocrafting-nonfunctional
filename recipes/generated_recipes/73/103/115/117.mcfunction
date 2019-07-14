@@ -1,0 +1,5 @@
+execute if score @s gm4_slot_count matches 6 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:magenta_wool"},{Slot:1b,id:"minecraft:magenta_wool"},{Slot:2b,id:"minecraft:magenta_wool"},{Slot:3b,id:"#minecraft:planks"},{Slot:4b,id:"#minecraft:planks"},{Slot:5b,id:"#minecraft:planks"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:magenta_bed",Count:1b,tag:{gm4_custom_crafters:{multiplier:1}}}]}
+execute store result score ice gm4_ac_count if data block ~ ~ ~ Items[{id:"minecraft:ice"}]
+execute if score ice gm4_ac_count run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:packed_ice",Count:1b,tag:{gm4_custom_crafters:{multiplier:1}}}]}
+
+execute if score @s gm4_slot_count matches 7 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:stick"},{Slot:1b,id:"minecraft:stick"},{Slot:2b,id:"minecraft:stick"},{Slot:4b,id:"minecraft:stick"},{Slot:6b,id:"minecraft:stick"},{Slot:7b,id:"minecraft:smooth_stone_slab"},{Slot:8b,id:"minecraft:stick"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:armor_stand",Count:1b,tag:{gm4_custom_crafters:{multiplier:1}}}]}

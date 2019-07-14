@@ -1,0 +1,1 @@
+execute if score @s gm4_slot_count matches 3 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:andesite"},{Slot:1b,id:"minecraft:andesite"},{Slot:2b,id:"minecraft:andesite"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:andesite_slab",Count:1b,tag:{gm4_custom_crafters:{multiplier:6}}}]}

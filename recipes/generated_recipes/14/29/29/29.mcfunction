@@ -1,0 +1,1 @@
+execute if score @s gm4_slot_count matches 2 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:coal"},{Slot:3b,id:"minecraft:stick"}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"minecraft:torch",Count:1b,tag:{gm4_custom_crafters:{multiplier:4}}}]}
