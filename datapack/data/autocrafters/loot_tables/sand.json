@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:sand"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

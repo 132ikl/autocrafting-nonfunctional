@@ -1,0 +1,818 @@
+{
+"pools": [{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:acacia_logs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:acacia_logs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:anvil"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:anvil\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:arrows"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:arrows\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:banners"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:banners\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:beds"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:beds\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:birch_logs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:birch_logs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:boats"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:boats\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:buttons"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:buttons\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:carpets"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:carpets\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:coals"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:coals\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:dark_oak_logs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:dark_oak_logs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:doors"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:doors\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:fences"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:fences\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:fishes"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:fishes\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:jungle_logs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:jungle_logs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:leaves"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:leaves\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:logs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:logs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:music_discs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:music_discs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:oak_logs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:oak_logs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:planks"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:planks\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:rails"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:rails\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:sand"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:sand\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:saplings"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:saplings\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:signs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:signs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:small_flowers"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:small_flowers\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:spruce_logs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:spruce_logs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:stone_bricks"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:stone_bricks\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:trapdoors"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:trapdoors\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:walls"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:walls\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wooden_buttons"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wooden_buttons\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wooden_doors"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wooden_doors\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wooden_fences"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wooden_fences\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wooden_pressure_plates"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wooden_pressure_plates\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wooden_slabs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wooden_slabs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wooden_stairs"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wooden_stairs\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wooden_trapdoors"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wooden_trapdoors\"}"
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "conditions": [
+                        {
+                            "condition": "match_tool",
+                            "predicate": {
+                                "tag": "minecraft:wool"
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ac_tag:\"#minecraft:wool\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+]
+}

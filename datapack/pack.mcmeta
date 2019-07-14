@@ -1,0 +1,21 @@
+{
+  "pack":{
+    "pack_format":0,
+    "description":"A Gamemode 4 Module"
+  },
+  "module_name":"Autocrafters",
+  "module_id":"autocrafters",
+  "site_description":"A module which adds a simple autocrafting system based on the Custom Crafters modules",
+  "site_categories":[],
+  "video_link":"YOUTUBE_VIDEO_URL",
+  "wiki_link":"WIKI_URL",
+  "required_modules":[
+    "custom_crafters"
+  ],
+  "recommended_modules":[],
+  "credits":{
+    "Creator":[
+      ["132ikl","https://ikl.sh"]
+    ]
+  }
+}
